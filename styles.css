@@ -1,0 +1,240 @@
+body {
+    color: black;
+    margin: auto;
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+}
+
+.titleBackground {
+    background-color: rgb(241, 81, 81);
+    border: 4px solid cornflowerblue;
+    border-radius: 10px;
+    height: 10%;
+    width: 25%;
+    left: 40%;
+    position: fixed;
+    padding-bottom: 2.5%;
+}
+
+#timeline {
+    position: fixed;
+    width: 90%;
+    height: 10%;
+    border-top: 2px solid black;
+    top: 50%;
+    margin-left: 5%;
+    z-index: -1;
+}
+
+.timelineBackground {
+    position: fixed;
+    width: 95%;
+    height: 20%;
+    top: 40.5%;
+    left: 2.5%;
+    background-color: lightblue;
+    box-shadow: 0px 0px 20px 20px lightblue;
+    z-index: -1;
+}
+
+.hide {
+    display: none;
+}
+
+.descriptionBox {
+    width:77%;
+    height:80%;
+    border: 2px solid black;
+    background-image: linear-gradient(white, blue, red);
+    position: fixed;
+    top: 10%;
+    left: 5%;
+    z-index: 10;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+    overflow-y: auto;
+}
+
+#backBTN, #backBTN2, #backBTN3, #backBTN4, #backBTN5, #backBTN6, #backBTN7, #backBTN8, #backBTN9, #backBTN10, #backBTN11 {
+    position: relative;
+    top: 5%;
+    left: -5%;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: yellow;
+    width: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+.eventOne {
+    position: fixed;
+    top: 42.5%;
+    left: 2.5%;
+}
+
+.eventTwo {
+    position: fixed;
+    top: 55%;
+    left: 2.5%;
+    z-index: 9;
+}
+
+.eventThree {
+    position: fixed;
+    top: 40.5%;
+    left: 12.5%;
+}
+
+.eventFour {
+    position: fixed;
+    top: 40.5%;
+    left: 45%;
+}
+
+.eventFive {
+    position: fixed;
+    top: 55%;
+    left: 42.5%;
+    z-index: 9;
+}
+
+.eventSix {
+    position: fixed;
+    top: 42.5%;
+    left: 53.5%
+}
+
+.eventSeven {
+    position: fixed;
+    top: 42.5%;
+    left: 62.5%;
+}
+
+.eventEight {
+    position: fixed;
+    top: 55%;
+    left: 82.5%;
+    z-index: 9;
+}
+
+.eventNine {
+    position: fixed;
+    top: 42.5%;
+    left: 82.5%;
+}
+
+.eventTen {
+    position: fixed;
+    top: 40.5%;
+    left: 91%;
+}
+
+.eventEleven {
+    position: fixed;
+    bottom: 5%;
+    left: 47.5%;
+    text-align: center;
+    border: 2px dashed yellow;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 30px red;
+    background-color: blue;
+    color: white;
+}
+
+.backgroundImageOne {
+    position: fixed;
+    box-shadow: 0px 0px 30px 30px rgb(255, 204, 0);
+    height: 30%;
+    width: 20%;
+    top: 5%;
+    left: 2.5%;
+    background-image: url("images/download.png");
+    background-size: cover;
+    z-index: -2;
+}
+
+.backgroundImageTwo {
+    position: fixed;
+    box-shadow: 0px 0px 30px 30px rgb(173, 27, 14), 0px 0px 10px 10px rgb(173, 27, 14) inset;
+    height: 30%;
+    width: 15%;
+    top: 65%;
+    left: 10%;
+    border-radius: 10px;
+    background-image: url("images/blobid1495806709683-3e0f2cfa24d46ccd5dd8482943065575-.jpg");
+    background-size: cover;
+    z-index: -3;
+}
+
+.backgroundImageThree {
+    position: fixed;
+    box-shadow: 0px 0px 30px 30px rgb(234, 224, 197), 0px 0px 10px 10px rgb(234, 224, 197) inset;
+    height: 20%;
+    width: 20%;
+    top: 65%;
+    background-image: url("images/f1692733caba4feb3a25a3aa80d5fb99.jpg");
+    background-size: cover;
+    z-index: -2;
+    left: 45%;
+}
+
+.backgroundImageFour {
+    position: fixed;
+    box-shadow: 0px 0px 30px 30px rgb(234, 224, 197), 0px 0px 10px 10px rgb(234, 224, 197) inset;
+    height: 20%;
+    width: 20%;
+    background-image: url("images/1200x630.jpg");
+    background-size: cover;
+    z-index: -2;
+    left: 65%;
+    top: 10%;
+}
+
+.backgroundImageFive {
+    position: fixed;
+    box-shadow: 0px 0px 50px 45px rgb(46, 0, 0), -10px 0px 20px 20px rgb(46, 0, 0) inset;
+    height: 25%;
+    width: 20%;
+    background-image: url("images/istockphoto-969152630-640x640.jpg");
+    background-size: cover;
+    z-index: -4;
+    left: 30%;
+    top: 5%;
+}
+
+.backgroundImageSix {
+    position: fixed;
+    height: 30%;
+    width: 20%;
+    background-image: url("images/russia-flag.jpg");
+    background-size: cover;
+    top: 65%;
+    left: 75%;
+    border: 6px solid rgb(0, 33, 95);
+    border-radius: 100px;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: linear-gradient(white, blue, red);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: black;
+    text-emphasis: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-emphasis: underline;
+    color: blue;
+}
