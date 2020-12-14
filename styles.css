@@ -220,7 +220,7 @@ body {
     height: 100%;
     width: 100%;
     position: fixed;
-    background-image: linear-gradient(white, blue, red);
+    background-color: rgb(168, 47, 47);
     background-repeat: no-repeat;
     background-size: cover;
 }
